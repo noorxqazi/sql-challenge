@@ -76,11 +76,6 @@ ALTER TABLE "salaries" ADD CONSTRAINT "fk_salaries_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
 
 
--- edit this 
-ALTER TABLE "titles" ADD CONSTRAINT "fk_titles_emp_no" FOREIGN KEY("emp_no")
-REFERENCES "employees" ("emp_no");
-
-
 
 -- show each table 
 SELECT * FROM departments;
